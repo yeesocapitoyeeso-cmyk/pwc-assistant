@@ -19,7 +19,7 @@ export default function FloatingChatBubble() {
     "Need assistance? I'm here!",
   ];
 
-  useEffect(() => {
+  useEffect(() => { 
     if (!isOpen) {
       // Show message every 10 seconds
       const messageInterval = setInterval(() => {

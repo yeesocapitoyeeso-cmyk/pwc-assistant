@@ -34,11 +34,11 @@ export default function Footer() {
   const contactInfo = [
     {
       icon: MapPin,
-      text: 'Uyanguren Street, Davao City, Philippines',
+      text: 'University Avenue, juna subdivision, davao city, davao del sur, philippines 8000',
     },
     {
       icon: Phone,
-      text: '(082) 227-7116',
+      text: '(082) 297 8035',
     },
     {
       icon: Mail,

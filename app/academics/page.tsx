@@ -49,9 +49,14 @@ export default function AcademicsPage() {
           specializations: ['Cookery', 'Bread and Pastry', 'Food and Beverage Services']
         },
         {
-          name: 'Industrial Arts',
-          description: 'Technical Skills and Trades',
-          specializations: ['SMAW (Welding)', 'Construction', 'Carpentry']
+          name: 'Travel and Services',
+          description: 'Tourism and Travel Management',
+          specializations: ['Tourism Services', 'Travel Agency Operations',]
+        },
+        {
+          name: 'Fashion and Design',
+          description: 'Creative and Visual Arts',
+          specializations: ['Fashion Design', 'Interior Design', 'Textile Design']
         }
       ]
     }
