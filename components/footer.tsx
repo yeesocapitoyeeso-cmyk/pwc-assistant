@@ -1,6 +1,6 @@
 'use client';
 
-import { Mail, Phone, MapPin, Facebook, Instagram, Linkedin } from 'lucide-react';
+import { Mail, Phone, MapPin } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 export default function Footer() {
@@ -44,12 +44,6 @@ export default function Footer() {
       icon: Mail,
       text: 'info@pwc.edu.ph',
     },
-  ];
-
-  const socialLinks = [
-    { icon: Facebook, href: '#', label: 'Facebook' },
-    { icon: Instagram, href: '#', label: 'Instagram' },
-    { icon: Linkedin, href: '#', label: 'LinkedIn' },
   ];
 
   return (
@@ -163,25 +157,6 @@ export default function Footer() {
             <p className="text-gray-600 text-sm">
               © 2025 Philippine Women's College of Davao. All rights reserved.
             </p>
-
-            {/* Social Links */}
-            <div className="flex items-center gap-4">
-              {socialLinks.map((social, index) => {
-                const Icon = social.icon;
-                return (
-                  <motion.a
-                    key={index}
-                    href={social.href}
-                    whileHover={{ scale: 1.1, y: -2 }}
-                    whileTap={{ scale: 0.95 }}
-                    className="w-10 h-10 rounded-full bg-gray-50 border border-gray-200 flex items-center justify-center text-gray-600 hover:bg-red-700 hover:text-white hover:border-red-700 transition-all"
-                    aria-label={social.label}
-                  >
-                    <Icon className="w-5 h-5" />
-                  </motion.a>
-                );
-              })}
-            </div>
           </div>
         </div>
       </div>
