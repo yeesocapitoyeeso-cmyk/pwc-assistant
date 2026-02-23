@@ -49,6 +49,7 @@ export default function PWCNavbar() {
                 href="/academics"
                 active={isActive('/academics')}
               />
+              
             </div>
 
             {/* Hamburger */}
