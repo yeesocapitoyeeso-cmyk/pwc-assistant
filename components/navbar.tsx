@@ -49,11 +49,6 @@ export default function PWCNavbar() {
                 href="/academics"
                 active={isActive('/academics')}
               />
-              <Link href="/enroll">
-                <button className="ml-2 px-5 lg:px-6 py-2.5 bg-[#800000] text-white font-medium rounded-full hover:bg-[#990000] active:scale-95 transition-all duration-200 shadow-md hover:shadow-lg">
-                  Enroll Now
-                </button>
-              </Link>
             </div>
 
             {/* Hamburger */}
