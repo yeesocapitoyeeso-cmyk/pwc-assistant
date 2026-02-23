@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
-import { Menu, X, GraduationCap, Phone, School, ChevronRight, Map } from "lucide-react";
+import { Menu, X, GraduationCap, School, ChevronRight } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
@@ -92,23 +92,8 @@ export default function PWCNavbar() {
                 onClick={() => setOpen(false)}
                 active={isActive('/academics')}
               />
-              <MobileNavItem 
-                icon={<Phone size={20} />} 
-                label="Contact Us" 
-                href="/contact"
-                onClick={() => setOpen(false)}
-                active={isActive('/contact')}
-              />
-              <div className="pt-3 pb-2">
-                <Link href="/enroll">
-                  <button
-                    className="w-full px-5 py-3 bg-[#800000] text-white font-medium rounded-xl hover:bg-[#990000] active:scale-[0.98] transition-all duration-200 shadow-md"
-                    onClick={() => setOpen(false)}
-                  >
-                    Enroll Now
-                  </button>
-                </Link>
-              </div>
+              {/* Contact removed from mobile menu per request */}
+              
             </div>
           </div>
         </div>
