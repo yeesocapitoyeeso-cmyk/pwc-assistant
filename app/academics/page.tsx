@@ -491,26 +491,7 @@ export default function AcademicsPage() {
           )}
         </div>
       </div>
-
-      {/* CTA Section (hidden on small screens) */}
-      <div className="hidden sm:block bg-gray-50 border-t border-gray-200 py-16">
-        <div className="container mx-auto px-6 max-w-4xl text-center">
-          <h2 className="text-3xl font-bold text-gray-900 mb-4">
-            Ready to Start Your Journey?
-          </h2>
-          <p className="text-gray-600 text-lg mb-8">
-            Explore our programs and find the perfect path for your future.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button className="px-8 py-4 bg-red-700 text-white rounded-xl font-semibold hover:bg-red-800 transition-colors">
-              Apply Now
-            </button>
-            <button className="px-8 py-4 bg-white border-2 border-gray-200 text-gray-900 rounded-xl font-semibold hover:border-red-700 transition-colors">
-              Download Prospectus
-            </button>
-          </div>
-        </div>
-      </div>
+      
     </div>
   );
 }
